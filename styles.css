@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+    box-sizing: border-box;
+}
+
+h1,h2,h3{
+    color: #7910dad3;
+}
+
+p{
+    color: #393838;
+}
+
+/* Navbar */
+.navbar-container{
+    width: 100%;
+    height: 80px;
+    background-color: #f0ebebe0;
+    padding: 0 2rem;
+}
+
+nav{
+    position: relative;
+}
+
+.logo{
+    width: 120px;
+    margin-top: 27px;
+}
+
+.navbar-items { /*ela vai ficar relativa ao elemento pai*/
+    position: absolute;
+    right: 0;
+    height: 80px;
+    line-height: 80px;
+    margin: 0;
+    display: inline-block;
+}
+
+.navbar-items li{
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 30px;
+}
+
+.navbar-items a{
+    color: #3a3838a4;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.navbar-items a:hover{
+    color: #CCC;
+}
+
+.default-btn{
+    background-color: #a771dad3;
+    border-radius: 5px;
+    padding: 15px 20px;
+}
+
+.navbar-items .default-btn:hover{
+    background-color: #dccaedd3;
+    color: #8e40d7d3;
+}
+
+/* Main Banner*/
+.main-banner{
+    background-image: url(../img/vivo.webp);
+    background-size: cover;
+    background-position: center;
+    margin-top: 5px;
+    padding: 15rem 0;
+}
+
+
+/* services */
+.services-container{
+    padding: 5rem 0;
+}
+
+.services-container ul{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.services-container li{
+    flex: 1 1 200px;
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+}
+
+.fas{
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.fa-mobile-screen-button{
+    color: #660bbcd3;
+}
+
+.fa-computer{
+    color: #660bbcd3;
+}
+
+.fa-tv{
+    color: #660bbcd3;
+}
+
+.services-container h3{
+    color: #393838;
+    margin-bottom: 40px;
+}
+
+.services-container p{
+    color: #575555;
+    line-height: 24px;
+}
+
+/* price and plans */
+.price-container{
+    padding-bottom: 5rem;
+    text-align: center;
+}
+
+.price-container h2{
+    font-size: 36px;
+    margin-top: 0;
+}
+
+.price-container p{
+    font-size: 20px;
+}
+
+.plans-container{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 50px auto 0;
+}
+
+.plan{
+    flex: 1;
+    max-width: 275px;
+    margin: 0 20px;
+}
+
+.plan ul{
+    padding: 0;
+}
+
+.plan li{
+    list-style: none;
+    height: 50px;
+    line-height: 50px;
+    background-color: #dccaedd3;
+    color: #333;
+}
+
+.plan .price{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #7e18dcd3;
+    border-style: solid;
+    border-color: blueviolet;
+    color: #FFF;
+    font-weight: bold;
+    text-align: center;
+    line-height: 120px; /*Fica centralizado no meio da border radius*/
+    margin: 0 auto -50px;
+    font-size: 18px;
+    position: relative;
+}
+
+.plan .plan-name{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFF;
+    background-color: #961fe5;
+    padding: 50px 0;
+}
+
+.plan .plan-btn{
+    background-color: #7419cad3;
+    color: #ede9e9;
+    columns: #FFF;
+    font-size: 24px;
+    height: 75px;
+    line-height: 75px;
+    cursor: pointer;
+}
+
+/* contact container */
+.contact-container{
+    background-color: #d4c9dc;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.contact-container h2{
+    color: #575555;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+.contact-container input{
+    display: block;
+    border: none;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.contact-container input[type="text"]{
+    width: 30%;
+    padding: 25px;
+    font-size: 15px;
+    margin-bottom: 23px;
+}
+
+.contact-container input[type="submit"]{
+    background-color: #a233ed;
+    padding: 15px 30px;
+    color: #FFF;
+    font-size: 24px;
+    cursor: pointer;
+    opacity: .9;
+}
+
+.contact-container input[type="submit"]:hover{
+    opacity: 1;
+}
+
+footer{
+    text-align: center;
+    font-weight: bold;
+    margin: 20px 0 100px;
+}
